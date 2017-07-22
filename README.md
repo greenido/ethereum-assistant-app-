@@ -1,8 +1,9 @@
-# Actions on Google Webhook example for ether-info codelab (using Node.js)
+# Google Assistant App ether-info that give you information about ETH
 
 This webhook example for ether-info codelab sets up everything you need to build your fulfillment
 business logic for your API.AI ether agent. 
-It could fetch the current price, market cap or the total amount of ethers. 
+
+#### It could fetch the ETH current price, market cap or the total amount of ethers. 
 
 #### (!) Psst... Want to get a cool intro to bitcoin? Checkout this [short video](https://www.youtube.com/watch?v=TN7cmfoH06w) I made.
 
