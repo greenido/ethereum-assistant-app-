@@ -77,7 +77,7 @@ if (isset($update["result"]["action"])) {
 else {
   error_log("\nError: $update \n");
   // A simple 'error msg' that will guide the user to provide something that we can work with
-  echo '{ "speech": "Sorry but I did not understand. Try: Ethereum price or what is the market cap?",
+  echo '{ "speech": "Sorry but I did not understand. Try: price or market cap or 24h volume",
     "source": "eth-price-sample",
-    "displayText": "Sorry but I did not understand. Try: Ethereum price or what is the market cap?" }';
+    "displayText": "Sorry but I did not understand. Try: price or market cap or 24h volume." }';
 }
