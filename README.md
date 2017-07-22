@@ -1,7 +1,7 @@
 # Google Assistant App ether-info that give you information about ETH
 
-This example for ether-info codelab sets up everything you need to build your fulfillment
-business logic for your API.AI ether agent. 
+Goolgle Apps for Assistant that give you details about Ethereum.
+Currently: Ethereum price, market cap and last 24h volume.
 
 #### It could fetch the ETH current price, market cap or the total amount of ethers. 
 
@@ -48,5 +48,7 @@ See LICENSE.md.
 Your use of this sample is subject to, and by using or downloading the sample files you agree to comply with, the [Google APIs Terms of Service](https://developers.google.com/terms/).
 
 ## Google+
-Actions on Google Developers Community on Google+ [https://g.co/actionsdev](https://g.co/actionsdev).
+* [+GreenIdo](http://plus.google.com/+greenido)
+* Actions on Google Developers Community on Google+ [https://g.co/actionsdev](https://g.co/actionsdev)
 
+### [Privacy Policy](https://sites.google.com/view/ethereum-info/home)
