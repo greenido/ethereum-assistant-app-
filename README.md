@@ -1,6 +1,6 @@
 # Google Assistant App ether-info that give you information about ETH
 
-This webhook example for ether-info codelab sets up everything you need to build your fulfillment
+This example for ether-info codelab sets up everything you need to build your fulfillment
 business logic for your API.AI ether agent. 
 
 #### It could fetch the ETH current price, market cap or the total amount of ethers. 

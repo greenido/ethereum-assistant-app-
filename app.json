@@ -1,0 +1,6 @@
+{
+  "name": "ETH Assistant App",
+  "description": "Goolgle Apps for Assistant that give you details about Ethereum. Currently: Ethereum price, market cap and last 24h volume.",
+  "repository": "https://github.com/greenido/ethereum-assistant-app-",
+  "addons": []
+}
