@@ -1,13 +1,11 @@
-# Google Assistant App ether-info that give you information about ETH
+# Google Assistant App Ether-Info
 
-Goolgle Apps for Assistant that give you details about Ethereum.
-Currently: Ethereum price, market cap and last 24h volume.
+#### This assistant app give you details about Ethereum: price, market cap and last 24h volume.
 
-#### It could fetch the ETH current price, market cap or the total amount of ethers. 
 
 #### (!) Psst... Want to get a cool intro to bitcoin? Checkout this [short video](https://www.youtube.com/watch?v=TN7cmfoH06w) I made.
 
-![ether logo](https://greenido.files.wordpress.com/2015/07/screenshot-2015-07-13-11-45-37.png?w=307&h=289)
+![ether logo](https://greenido.files.wordpress.com/2017/07/ethereum-logo-big.png)
 
 ## Setup Instructions
 
