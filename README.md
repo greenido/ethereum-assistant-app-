@@ -2,8 +2,10 @@
 
 #### This assistant app give you details about Ethereum: price, market cap and last 24h volume.
 
+#### What is Ethereum?
+[Ethereum](https://www.ethereum.org/) is a digital currency invented in 2013 — a full 4 years after the release of Bitcoin. It has since grown to be the second largest digital currency in the world by market cap — around $20 billion, compared to Bitcoin’s $40 billion. Psst... Want to get a cool intro to bitcoin? Checkout this [short video](https://www.youtube.com/watch?v=TN7cmfoH06w) I made.
 
-#### (!) Psst... Want to get a cool intro to bitcoin? Checkout this [short video](https://www.youtube.com/watch?v=TN7cmfoH06w) I made.
+Ethereum uses its blockchain to record state transitions in a gigantic distributed computer. Ethereum’s corresponding digital currency, ether, is essentially a side effect of powering this massive computer. To put it another way, Ethereum is literally a computer that spans the entire world. Anyone who runs the Ethereum software on their computer is participating in the operations of this world-computer, the Ethereum Virtual Machine (EVM). Because the EVM was designed to be Turing-complete (ignoring gas limits), it can do almost anything that can be expressed in a computer program.
 
 ![ether logo](https://greenido.files.wordpress.com/2017/07/ethereum-logo-big.png)
 
