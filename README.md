@@ -1,6 +1,7 @@
-# Google Assistant App Ether-Info
+# Google Assistant App "Ethereum-Info"
 
 #### This assistant app give you details about Ethereum: price, market cap and last 24h volume.
+In case you have Google home or Android or iPhone with the assistant app - you can try it by saying: "Talk to Ethereum-Info"
 
 #### What is Ethereum?
 [Ethereum](https://www.ethereum.org/) is a digital currency invented in 2013 — a full 4 years after the release of Bitcoin. It has since grown to be the second largest digital currency in the world by market cap — around $20 billion, compared to Bitcoin’s $40 billion. Psst... Want to get a cool intro to bitcoin? Checkout this [short video](https://www.youtube.com/watch?v=TN7cmfoH06w) I made.
