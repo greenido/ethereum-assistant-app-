@@ -9,6 +9,10 @@ Ethereum uses its blockchain to record state transitions in a gigantic distribut
 
 ![ether logo](https://greenido.files.wordpress.com/2017/07/ethereum-logo-big.png)
 
+## Now, you got two (good) options:
+1. Create a [pull-request](https://github.com/greenido/ethereum-assistant-app-/pulls) or [open an issue](https://github.com/greenido/ethereum-assistant-app-/issues) and improve this app.
+2. Clone this repo and create your own app. All the details are below.
+
 ## Setup Instructions
 
 ### Pre-requisites
