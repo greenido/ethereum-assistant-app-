@@ -1,6 +1,6 @@
-# Google Assistant App "Ethereum-Info"
+# Google Assistant App ["Ethereum-Info"](https://assistant.google.com/services/a/id/33c7d34e77de3124/)
 
-#### This assistant app give you details about Ethereum: price, market cap and last 24h volume.
+#### This [assistant app](https://assistant.google.com/services/a/id/33c7d34e77de3124/) give you details about Ethereum: price, market cap and last 24h volume.
 In case you have Google home or Android or iPhone with the assistant app - you can try it by saying: "Talk to Ethereum-Info"
 
 #### What is Ethereum?
