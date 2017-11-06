@@ -57,3 +57,7 @@ Your use of this sample is subject to, and by using or downloading the sample fi
 * Actions on Google Developers Community on Google+ [https://g.co/actionsdev](https://g.co/actionsdev)
 
 ### [Privacy Policy](https://sites.google.com/view/ethereum-info/home)
+
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-65622529-1/ethereum-assistant-app/)](https://github.com/igrigorik/ga-beacon)
