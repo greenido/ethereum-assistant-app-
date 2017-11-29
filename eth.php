@@ -1,6 +1,7 @@
 <?php
 /**
-* @what Goolgle Apps for Assistant that give you details about Ethereum.
+* @what Hey Google, talk to Ether info.
+* An App for the Google Assistant that give you details about Ethereum.
 * Currently: Ethereum price, market cap and last 24h volume.
 
 * @author Ido Green | @greenido
@@ -16,7 +17,7 @@ function processMessage($update) {
     if( $update["result"]["action"] === "price") {
       $rawHtml = file_get_contents($endPointURL);
       $inx1 = strpos($rawHtml, "quote_price") + 13;
-      $inx1 = strpos($rawHtml, ">", $inx1);
+      $inx1 = strpos($rawHtml, ">", $inx1) + 1;
       $inx2 = strpos($rawHtml, "<", $inx1);
       $price = substr($rawHtml, $inx1, $inx2 - $inx1);
       $tmpStr = "Right now the price of 1 Ethereum is $price USD. What else do you wish to know?";
@@ -29,7 +30,7 @@ function processMessage($update) {
     elseif ($update["result"]["action"] === "marketcap" ) {
       $rawHtml = file_get_contents($endPointURL);
       $inx1 = strpos($rawHtml, "coin-summary-item-detail") + 26;
-      $inx1 = strpos($rawHtml, ">", $inx1);
+      $inx1 = strpos($rawHtml, ">", $inx1) + 1;
       $inx2 = strpos($rawHtml, "<", $inx1);
       $marketCap = substr($rawHtml, $inx1, $inx2 - $inx1);
       $tmpStr = "Right now the Ethereum market cap is {$marketCap}. What else do you wish to know?";
@@ -45,7 +46,7 @@ function processMessage($update) {
       $inx1 = strpos($rawHtml, "coin-summary-item-detail") + 26;
       // let's get the second ancor for the vol.
       $inx1 = strpos($rawHtml, "coin-summary-item-detail", $inx1) + 26;
-      $inx1 = strpos($rawHtml, ">", $inx1);
+      $inx1 = strpos($rawHtml, ">", $inx1) + 1;
       $inx2 = strpos($rawHtml, "<", $inx1);
       $vol = substr($rawHtml, $inx1, $inx2 - $inx1);
       $tmpStr = "The Ethereum volume in the last 24 hours is {$vol}. What else do you wish to know?";
