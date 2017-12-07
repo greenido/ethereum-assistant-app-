@@ -30,7 +30,7 @@ function processMessage($update) {
     elseif ($update["result"]["action"] === "marketcap" ) {
       $rawHtml = file_get_contents($endPointURL);
       $inx1 = strpos($rawHtml, "coin-summary-item-detail") + 26;
-      $inx1 = strpos($rawHtml, "data-usd", $inx1) + 1;
+      $inx1 = strpos($rawHtml, "data-usd", $inx1) + 10;
       $inx2 = strpos($rawHtml, "\"", $inx1);
       $marketCap = substr($rawHtml, $inx1, $inx2 - $inx1);
       $tmpStr = "Right now the Ethereum market cap is {$marketCap} USD. What else do you wish to know?";
@@ -45,7 +45,7 @@ function processMessage($update) {
       $inx1 = strpos($rawHtml, "coin-summary-item-detail") + 26;
       // let's get the second ancor for the vol.
       $inx1 = strpos($rawHtml, "coin-summary-item-detail", $inx1) + 26;
-      $inx1 = strpos($rawHtml, "data-usd", $inx1) + 1;
+      $inx1 = strpos($rawHtml, "data-usd", $inx1) + 10;
       $inx2 = strpos($rawHtml, "\"", $inx1);
       $vol = substr($rawHtml, $inx1, $inx2 - $inx1);
       $tmpStr = "The Ethereum volume in the last 24 hours is {$vol} USD. What else do you wish to know?";
