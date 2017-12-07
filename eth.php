@@ -33,6 +33,7 @@ function processMessage($update) {
       $inx1 = strpos($rawHtml, "data-usd", $inx1) + 10;
       $inx2 = strpos($rawHtml, "\"", $inx1);
       $marketCap = substr($rawHtml, $inx1, $inx2 - $inx1);
+      $marketCap = round($marketCap);
       $tmpStr = "Right now the Ethereum market cap is {$marketCap} USD. What else do you wish to know?";
         sendMessage(array(
             "source" => "eth-marketcap-sample",
@@ -48,6 +49,7 @@ function processMessage($update) {
       $inx1 = strpos($rawHtml, "data-usd", $inx1) + 10;
       $inx2 = strpos($rawHtml, "\"", $inx1);
       $vol = substr($rawHtml, $inx1, $inx2 - $inx1);
+      $vol = round($vol);
       $tmpStr = "The Ethereum volume in the last 24 hours is {$vol} USD. What else do you wish to know?";
         sendMessage(array(
             "source" => "eth-volume-sample",
