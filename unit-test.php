@@ -2,7 +2,6 @@
 /**
 * UNIT TEST
 * @what App for the Google Assistant that give you details about Ethereum.
-
 * @author Ido Green | @greenido
 * @date 7/2017
 * @see https://greenido.wordpress.com
